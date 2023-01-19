@@ -1,0 +1,9 @@
+.header__lang-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: auto 0 auto;
+    max-width: 78px;
+}
+

@@ -1,0 +1,28 @@
+.intro {
+    width: 690px;
+    height: 429px;
+    margin-top: 92px; 
+    font-family: 'Inter';
+    margin-left: 148px;
+}
+
+@media (max-width: 425px) {
+.intro {
+    max-width: 288px;
+    margin-left: 16px;
+}
+}
+
+@media (max-width: 768px) {
+.intro {
+        max-width: 720px;
+        margin-left: 24px;
+}
+}
+
+
+@media (max-width: 1024px) {
+    .intro {
+        margin-left: 48px;
+}
+}   

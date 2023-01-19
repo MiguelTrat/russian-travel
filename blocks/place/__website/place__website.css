@@ -1,0 +1,23 @@
+.place__website {
+    display: grid;
+    grid-area: website;
+    gap: 12px;
+    max-width: 456px;
+    min-height: 46px;
+    align-self: center;
+    padding: 0;
+}
+
+@media (max-width: 425px) {
+.place__website {
+    max-width: 288px;
+}
+}
+
+@media (max-width: 768px) {
+.place__website {
+    max-width: 352px;
+    min-height: 46px;
+}
+}
+

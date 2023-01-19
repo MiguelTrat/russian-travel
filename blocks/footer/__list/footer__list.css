@@ -1,0 +1,11 @@
+.footer__list {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0;
+}
+
+@media (max-width: 425px){
+    .footer__list{
+        display: block;
+    }
+    }
