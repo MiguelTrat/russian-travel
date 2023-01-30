@@ -8,16 +8,20 @@
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+        min-height: 46px;
+        grid-area: website;
+    }
+    }
+
 @media (max-width: 425px) {
 .place__website {
     max-width: 288px;
+    grid-area: website;
 }
 }
 
-@media (max-width: 768px) {
-.place__website {
-    max-width: 352px;
-    min-height: 46px;
-}
-}
+
 

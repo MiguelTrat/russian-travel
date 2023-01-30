@@ -7,12 +7,14 @@
     color: white;
     margin: 0;
     padding-bottom: 26px;
+    grid-area: paragraph;
 }
 
 @media (max-width: 1024px) {
 .place__paragraph {
     max-width: 456px;
     font-size: 18px;
+    grid-area: paragraph;
 }
 }
 
@@ -20,6 +22,7 @@
 .place__paragraph {
     max-width: 352px;
     font-size: 16px;
+    grid-area: paragraph;
 }
 }
 
@@ -27,5 +30,6 @@
 .place__paragraph {
     max-width: 288px;
     margin-left: 16px;
+    grid-area: paragraph;
 }
 }
