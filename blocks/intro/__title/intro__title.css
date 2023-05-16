@@ -22,7 +22,7 @@
     .intro__title {
         max-width: 288px;
         min-height: calc(100% - 10px);
-        font-size: calc( (100vw - 50px)/(425 - 50) * (32 - 10) + 10px);
+        font-size: 32px;
         line-height: 109%;
     }
 }
