@@ -5,21 +5,25 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    height: 58px;
+    max-width: 690px;
+    min-height: 58px;
     margin-top: 0;
 }
 
-@media (max-width: 768px) {
-.intro__title {
-    max-width: 720px;
-}
+@media screen and (max-width: 768px) {
+    .intro__title {
+        max-width: 720px;
+        font-size: calc( (100vw - 425px)/(768 - 425) * (54 - 32) + 32px);
+        min-height: calc(100% - 70px);
+        line-height: 107%;
+    }
 }
 
-@media (max-width: 425px) {
-.intro__title {
-    max-width: 288px;
-    min-height: 70px;
-    font-size: 32px;
-    line-height: 109%;
-}
+@media screen and (max-width: 425px) {
+    .intro__title {
+        max-width: 288px;
+        min-height: calc(100% - 10px);
+        font-size: calc( (100vw - 50px)/(425 - 50) * (32 - 10) + 10px);
+        line-height: 109%;
+    }
 }

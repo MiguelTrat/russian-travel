@@ -10,26 +10,27 @@
     grid-area: paragraph;
 }
 
-@media (max-width: 1024px) {
-.place__paragraph {
-    max-width: 456px;
-    font-size: 18px;
-    grid-area: paragraph;
-}
+.place__paragraph:last-of-type {
+    padding-bottom: 0;
 }
 
-@media (max-width: 768px) {
-.place__paragraph {
-    max-width: 352px;
-    font-size: 16px;
-    grid-area: paragraph;
-}
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        max-width: 456px;
+        font-size: calc( (100vw - 768px)/(1024 - 768) * (18 - 16) + 16px);
+    }
 }
 
-@media (max-width: 425px) {
-.place__paragraph {
-    max-width: 288px;
-    margin-left: 16px;
-    grid-area: paragraph;
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        max-width: 352px;
+        font-size: 16px;
+    }
 }
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        max-width: 288px;
+        margin-left: 16px;
+    }
 }

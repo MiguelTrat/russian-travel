@@ -8,6 +8,7 @@
     color: white;
     padding-right: 18px;
     max-width: 30px;
+    min-height: 28px;
 }
 
 @media screen and (max-width: 425px) {
@@ -16,6 +17,6 @@
         min-height: 20px;
         font-weight: 400;
         font-size: 18px;
-        line-height: 117%;
+        line-height: 20px;
     }
-    }
+}

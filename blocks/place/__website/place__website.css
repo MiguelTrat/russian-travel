@@ -4,23 +4,22 @@
     gap: 12px;
     max-width: 456px;
     min-height: 46px;
-    align-self: center;
+    align-self: end;
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place__website {
         max-width: 352px;
         min-height: 46px;
-        grid-area: website;
+        align-self: start;
     }
-    }
-
-@media (max-width: 425px) {
-.place__website {
-    max-width: 288px;
-    grid-area: website;
 }
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        max-width: 288px;
+    }
 }
 
 

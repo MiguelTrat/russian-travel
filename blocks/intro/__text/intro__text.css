@@ -2,23 +2,31 @@
     font-family: 'Inter';
     color: white;
     font-style: normal;
-    height: 208px;
-    margin-top: 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+    max-width: 690px;
+    min-height: 100%;
+    margin-top: 40px;
 }
 
-@media (max-width: 425px) {
-.intro__text {
-    max-width: 288px;
-    min-height: 520px;
-    margin-bottom: 34px;
-}
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        margin-bottom: 0;
+    }
 }
 
-@media (max-width: 768px) {
-.intro__text {
-    max-width: 720px;
+@media screen and (max-width: 768px) {
+    .intro__text {
+       max-width: 720px;
+    }
 }
-}
+
+@media screen and (max-width: 425px) {
+    .intro__text {
+        max-width: 288px;
+        min-height: 520px;
+        margin-bottom: 34px;
+    }
+}   
+
